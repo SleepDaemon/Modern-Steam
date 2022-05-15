@@ -19,4 +19,4 @@ This repo is simply to make it easy to share the skin with others (e.g friends),
 
 - [Minischetti](https://github.com/minischetti) for the original metro skin [[Original Skin]](https://metroforsteam.com/)
 - [RedSigma](https://github.com/redsigma) for the updated metro skin [[Updated Skin]](https://github.com/redsigma/UPMetroSkin)
-- [PhantomGamers](https://github.com/PhantomGamers) for the SteamFriendsPatcher.exe [[Steam Friends Patcher]](https://github.com/PhantomGamers/SteamFriendsPatcher)
+- [PhantomGamers](https://github.com/PhantomGamers) for the SFP [[SFP]](https://github.com/PhantomGamers/SFP)
