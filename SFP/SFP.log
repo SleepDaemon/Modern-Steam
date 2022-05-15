@@ -1,0 +1,34 @@
+2022-05-15 06:49:22.5672|INFO|SFP.LogModel|Version is 0.0.3
+2022-05-15 06:49:23.1230|INFO|SFP.LogModel|Checking for updates...
+2022-05-15 06:49:31.5622|ERROR|SFP.LogModel|System.NullReferenceException: Object reference not set to an instance of an object.
+   at Avalonia.Controls.TrayIcon.RemoveIcons(IEnumerable`1 icons) in /_/src/Avalonia.Controls/TrayIcon.cs:line 204
+   at Avalonia.Controls.TrayIcon.Lifetime_Exit(Object sender, ControlledApplicationLifetimeExitEventArgs e) in /_/src/Avalonia.Controls/TrayIcon.cs:line 191
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.DoShutdown(ShutdownRequestedEventArgs e, Boolean force, Int32 exitCode) in /_/src/Avalonia.Controls/ApplicationLifetimes/ClassicDesktopStyleApplicationLifetime.cs:line 173
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.Shutdown(Int32 exitCode) in /_/src/Avalonia.Controls/ApplicationLifetimes/ClassicDesktopStyleApplicationLifetime.cs:line 86
+   at SFP_UI.Views.MainWindow.<>c.<InitializeTrayIcon>b__9_2(Object s, EventArgs e) in D:\a\SFP\SFP\SFP_UI\Views\MainWindow.axaml.cs:line 68
+   at Avalonia.Controls.NativeMenuItem.Avalonia.Controls.INativeMenuItemExporterEventsImplBridge.RaiseClicked() in /_/src/Avalonia.Controls/NativeMenuItem.cs:line 198
+   at Avalonia.Win32.Win32NativeToManagedMenuExporter.<>c__DisplayClass2_0.<Populate>b__0(Object _, RoutedEventArgs __) in /_/src/Windows/Avalonia.Win32/Win32NativeToManagedMenuExporter.cs:line 36
+   at Avalonia.Interactivity.Interactive.<AddHandler>g__InvokeAdapter|4_0[TEventArgs](Delegate baseHandler, Object sender, RoutedEventArgs args) in /_/src/Avalonia.Interactivity/Interactive.cs:line 62
+   at Avalonia.Interactivity.Interactive.<>c__4`1.<AddHandler>b__4_1(Delegate baseHandler, Object sender, RoutedEventArgs args) in /_/src/Avalonia.Interactivity/Interactive.cs:line 68
+   at Avalonia.Interactivity.EventRoute.RaiseEventImpl(RoutedEventArgs e) in /_/src/Avalonia.Interactivity/EventRoute.cs:line 152
+   at Avalonia.Interactivity.EventRoute.RaiseEvent(IInteractive source, RoutedEventArgs e) in /_/src/Avalonia.Interactivity/EventRoute.cs:line 79
+   at Avalonia.Interactivity.Interactive.RaiseEvent(RoutedEventArgs e) in /_/src/Avalonia.Interactivity/Interactive.cs:line 123
+   at Avalonia.Controls.MenuItem.Avalonia.Controls.IMenuItem.RaiseClick() in /_/src/Avalonia.Controls/MenuItem.cs:line 333
+   at Avalonia.Controls.Platform.DefaultMenuInteractionHandler.Click(IMenuItem item) in /_/src/Avalonia.Controls/Platform/DefaultMenuInteractionHandler.cs:line 456
+   at Avalonia.Controls.Platform.DefaultMenuInteractionHandler.PointerReleased(Object sender, PointerReleasedEventArgs e) in /_/src/Avalonia.Controls/Platform/DefaultMenuInteractionHandler.cs:line 408
+   at Avalonia.Interactivity.Interactive.<AddHandler>g__InvokeAdapter|4_0[TEventArgs](Delegate baseHandler, Object sender, RoutedEventArgs args) in /_/src/Avalonia.Interactivity/Interactive.cs:line 62
+   at Avalonia.Interactivity.Interactive.<>c__4`1.<AddHandler>b__4_1(Delegate baseHandler, Object sender, RoutedEventArgs args) in /_/src/Avalonia.Interactivity/Interactive.cs:line 68
+   at Avalonia.Interactivity.EventRoute.RaiseEventImpl(RoutedEventArgs e) in /_/src/Avalonia.Interactivity/EventRoute.cs:line 152
+   at Avalonia.Interactivity.EventRoute.RaiseEvent(IInteractive source, RoutedEventArgs e) in /_/src/Avalonia.Interactivity/EventRoute.cs:line 79
+   at Avalonia.Interactivity.Interactive.RaiseEvent(RoutedEventArgs e) in /_/src/Avalonia.Interactivity/Interactive.cs:line 123
+   at Avalonia.Input.MouseDevice.MouseUp(IMouseDevice device, UInt64 timestamp, IInputRoot root, Point p, PointerPointProperties props, KeyModifiers inputModifiers) in /_/src/Avalonia.Input/MouseDevice.cs:line 311
+   at Avalonia.Input.MouseDevice.ProcessRawEvent(RawPointerEventArgs e) in /_/src/Avalonia.Input/MouseDevice.cs:line 144
+   at Avalonia.Input.InputManager.ProcessInput(RawInputEventArgs e) in /_/src/Avalonia.Input/InputManager.cs:line 37
+   at Avalonia.Win32.WindowImpl.AppWndProc(IntPtr hWnd, UInt32 msg, IntPtr wParam, IntPtr lParam) in /_/src/Windows/Avalonia.Win32/WindowImpl.AppWndProc.cs:line 518
+   at Avalonia.Win32.WindowImpl.WndProc(IntPtr hWnd, UInt32 msg, IntPtr wParam, IntPtr lParam) in /_/src/Windows/Avalonia.Win32/WindowImpl.WndProc.cs:line 33
+   at Avalonia.Win32.Interop.UnmanagedMethods.DispatchMessage(MSG& lpmsg)
+   at Avalonia.Win32.Win32Platform.RunLoop(CancellationToken cancellationToken) in /_/src/Windows/Avalonia.Win32/Win32Platform.cs:line 205
+   at Avalonia.Threading.Dispatcher.MainLoop(CancellationToken cancellationToken) in /_/src/Avalonia.Base/Threading/Dispatcher.cs:line 65
+   at Avalonia.Controls.ApplicationLifetimes.ClassicDesktopStyleApplicationLifetime.Start(String[] args) in /_/src/Avalonia.Controls/ApplicationLifetimes/ClassicDesktopStyleApplicationLifetime.cs:line 120
+   at Avalonia.ClassicDesktopStyleApplicationLifetimeExtensions.StartWithClassicDesktopLifetime[T](T builder, String[] args, ShutdownMode shutdownMode) in /_/src/Avalonia.Controls/ApplicationLifetimes/ClassicDesktopStyleApplicationLifetime.cs:line 209
+   at SFP_UI.Program.Main(String[] args) in D:\a\SFP\SFP\SFP_UI\Program.cs:line 20

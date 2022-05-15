@@ -1,0 +1,75 @@
+/*  ======== Instructions ======== 
+    The following blocks are customisation options
+        In general an option should be chosen - however if an import is not used the steam defaults will be
+        
+    To choose an option remove the "/*" that is in front of the "@import"
+*/
+
+/* ======== Base Theme - the only required import ========
+    This one is required will not work well without it
+*/
+@import url(https://laserflash.tk/steam-chat-skin/offlineFriends/offlineFriends.css)
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  ==== Avatar Shape ====
+    Select one of the following avatar shapes
+
+/*  == Squircle Avatar == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/avatarStyle/squircleAvatar.css);
+/*  == Square Avatar === */
+/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/avatarStyle/squareAvatar.css);
+/*  == Round Avatar == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/avatarStyle/roundAvatar.css);
+
+/*  ---------------------------------------------------------------------------- */
+
+
+/*  ==== Theme Colour ====
+    Select one of the following themes
+    
+/*  == Dark Theme == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/darkMode.css);
+/*  == Light Theme == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/lightMode.css);
+/*  == Steam like Theme == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/steamColours.css);
+/*  == Discord Colours Theme == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/discordColours.css);
+
+/*  ---------------------------------------------------------------------------- */
+
+
+/*  ==== Shadow Effects ====
+    Certain elements can be given a 3d effect through the use of shadows
+    import nothing for stock steam, otherwise choose one of the following options
+
+/*  == No Shadow == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/shadowEffects/noShadow.css);
+/*  == Better Shadows == */
+/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/shadowEffects/improvedShadow.css);
+
+/*  ---------------------------------------------------------------------------- */
+
+/*  ==== Fonts ====
+    Here you can apply your own font.
+    Ensure the font is either a web safe font or installed on your system
+    - https://www.w3schools.com/cssref/css_websafe_fonts.asp
+    - https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
+*/
+
+/* -- Remove this line to uncomment the font-family --
+* {
+   font-family: <replace-me-with-your-font> !important;
+}
+
+
+/*  ----------------------------------------------------------------------------
+/* ======== CREDITS ========
+/*  LaserFlash:  -  https://github.com/LaserFlash/
+/*               -  https://steamcommunity.com/id/LaserFlash/
+/*
+/*  Website      -  https://steamchatskinning.tk
+/*
+/*  ----------------------------------------------------------------------------
+*/
