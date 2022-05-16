@@ -9,8 +9,10 @@ Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read
 ## Screenshots
 ### Steam Library
 ![Library](https://i.imgur.com/nLP8tdj.png)
+### Steam Download
+![Download](https://i.imgur.com/GG6wxXi.png)
 ### Steam Friends
-![Friends](https://i.imgur.com/PBTTmGy.png)
+![Friends](https://i.imgur.com/ugD3zru.png)
 ### Steam Store
 ![Store](https://i.imgur.com/XZWb9nE.png)
 ### Steam Profile
