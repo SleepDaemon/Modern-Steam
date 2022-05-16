@@ -305,13 +305,13 @@
 
 /////////////////////////////////////////////////
 //======Recent/Installed/Tools Categories======//
-		CategoryBG=Header_Dark
-		CategoryText=White
+		CategoryBG=none
+		CategoryText=Focus
 
 
 ///////////////////////////////////////
 //======URL Secure / Not Secure======//
-		SecureURL = "130 186 0 255"
-		NotSecureURL = "170 20 20 255"
+		SecureURL=green50
+		NotSecureURL="170 20 20 255"
 	}
 }

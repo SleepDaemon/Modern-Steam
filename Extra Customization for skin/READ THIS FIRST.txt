@@ -1,0 +1,2 @@
+Inside each customization folder there is options and each options there is a folder named "Install"
+Drag the content inside the "Install" folder to inside of the "metro-for-steam-5.0" folder

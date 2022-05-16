@@ -4,21 +4,21 @@
 	{
 		text = ""
 		SkinVersion { text="Metro for Steam 4.x"  shellcmd="steam://openurl/https://metroforsteam.com" }
-		SkinVersionMod { text="Unofficial Patch 9"  shellcmd="steam://openurl/https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907" }
+		SkinVersionMod {	text="Unofficial Patch 9"  shellcmd="steam://openurl/https://steamcommunity.com/groups/metroskin/discussions/0/141136086931804907" }
 		Divider {}
-		Mini_Mode { text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
-		Large_Mode	{ text="#steam_menu_largemode"  shellcmd="steam://open/largegameslist" }
-		BigPicture	{ text="#steam_menu_bigpicturemode"  shellcmd="steam://open/bigpicture" }
-		Divider {} 
+		Mini_Mode {	text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
+		Large_Mode { text="#steam_menu_largemode"  shellcmd="steam://open/largegameslist" }
+		BigPicture { text="#steam_menu_bigpicturemode"  shellcmd="steam://open/bigpicture" }
+		Divider {}
+		
 		BackupGames { text="#steam_menu_backupgames"  command="backupgames" }
 		Divider {}
 		Announcements { text="Steam Announcements"  shellcmd="steam://url/SteamAnnouncements" }
 		Support { text="#steam_menu_support"  command="Support" }
-		Privacy { text="#steam_menu_PrivacyPolicy"  shellcmd="steam://url/PrivacyPolicy" }
 		Legal { text="#steam_menu_LegalInformation"  shellcmd="steam://url/LegalInformation" }
-		SSA { text="#steam_menu_SteamSubscriberAgreement"  shellcmd="steam://url/SSA" }
 		Divider {}
-		CheckForUpdate { text="#steam_menu_checkforupdates"  command="CheckForUpdates" }
+
+		CheckForUpdates { text="#steam_menu_checkforupdates"  command="CheckForUpdates" }
 		SystemInfo { text="#steam_menu_systeminfo"  command="SystemInfo" }
 		Settings { text="#steam_menu_settings"  command="Settings" }
 		About { text="#steam_about"  command="About" }
@@ -28,30 +28,29 @@
 		GoOffline { text="#SteamUI_OfflineMode_GoOffline"  command="gooffline" }
 		Restart { text="#Steam_MustRestart_Button"  command="RestartSteam" }
 		Divider {}
-		Exit { text="#Steam_ExitSteam"  command="Exit" }
+		Exit { text="#Steam_ExitSteam" command="Exit" }
 	}
 	Steam [$WINDOWS||$LINUX]
 	{
 		text = "-------DONT-MODIFY-ME-------"
-		MyAccount { text="#steam_menu_account_details"  shellcmd="steam://url/StoreAccount/" }
-		StoreConfig { text="#steam_menu_account_preferences"  shellcmd="steam://url/SteamPreferences" }
+		ActivateRetail { text="#Steam_RegisterProductCode"  command="ActivateRetail" }
+		ManageGuestPasses {	text="#Steam_ManageGuestPasses"  command="ManageGuestPasses" }
+		AddShortcut { text="#Steam_menu_AddShortcut"  shellcmd="steam://AddNonSteamGame" }
+		CommunityMods { text="Valve Moderators" shellcmd="steam://openurl/https://steamcommunity.com/discussions/moderators" }
 		Divider {}
+		NewForYou { text="#Steam_GamesDialog_RightClick_UpdateNews"	shellcmd="steam://open/newforyou" }
 		MusicPlayer { text="#steam_menu_view_musicplayer"  shellcmd="steam://open/musicplayer" }
+		MusicDetails { text="#steam_menu_view_music_details"  shellcmd="steam://nav/music/details" }
 		Hidden { text="#steam_menu_hidden_games" shellcmd="steam://nav/library/collection/hidden" }
+		Recommender { text="Find Games" shellcmd="steam://openurl/https://store.steampowered.com/recommender/" }
 		Divider {}
-		CommentHistory { text="#ServerBrowser_HistoryTab"  shellcmd="steam://openurl/https://steamcommunity.com/my/commenthistory" }
-		ThirdPartyLogins { text="#Steam_DeveloperUnknownThirdParty"  shellcmd="steam://openurl/https://help.steampowered.com/en/accountdata/ThirdPartyLogins" }
+		CommentHistory { text="#ServerBrowser_HistoryTab" shellcmd="steam://openurl/https://steamcommunity.com/my/commenthistory" }
+		ThirdPartyLogins { text="#Steam_DeveloperUnknownThirdParty" shellcmd="steam://openurl/https://help.steampowered.com/en/accountdata/ThirdPartyLogins" }
 		ViewPlayerList { text="#steam_menu_view_players" shellcmd="steam://friends/players" }
 		Servers { text="#steam_menu_servers"  shellcmd="steam://open/servers" }
 		Screenshots { text="#steam_screenshots"  command="Screenshots" }
-		NewForYou { text="#SteamUI_GameProperties_UpdateNews"  shellcmd="steam://open/newforyou" }
-		Divider {}
-		ActivateRetail { text="#Steam_RegisterProductCode"  command="ActivateRetail" }
-		RedeemWalletVoucher { text="#Steam_RedeemWalletVoucher"  shellcmd="steam://url/RedeemWalletVoucher" }
-		ManageGuestPasses { text="#Steam_ManageGuestPasses"  command="ManageGuestPasses" }
-		AddShortcut { text="#Steam_menu_AddShortcut"  shellcmd="steam://AddNonSteamGame" }
 	}
-
+  
 	Steam [$OSX] 
 	{
 		text = "Account" 
