@@ -4,7 +4,7 @@ Do you wish that Valve would update the look of steam already, because you're bo
 
 
 ## Download
-Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read the latest release instruction
+Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read the latest release.
 
 ## Screenshots
 ### Steam Library
@@ -17,7 +17,7 @@ Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read
 ![Profile](https://i.imgur.com/ZfAtxsc.png)
 
 # Credit
-This repo is simply to make it easy to share the skin with others (e.g friends), all credits goes to these folks below:
+I didn't code or create any of these I simply manage the repo, all credits goes to these folks below who did the actual work:
 
 - [Minischetti](https://github.com/minischetti) for the original metro skin [[Original Skin]](https://metroforsteam.com/)
 - [RedSigma](https://github.com/redsigma) for the updated metro skin [[Updated Skin]](https://github.com/redsigma/UPMetroSkin)
