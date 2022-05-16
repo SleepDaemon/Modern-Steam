@@ -1,1 +1,0 @@
-drop this config.css file in steam/steamui in case you want to use amoled dark style
