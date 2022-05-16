@@ -1,7 +1,8 @@
 # Steam Dark Mode
 Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Steam Dark Mode got you covered.
 
-
+![logo1](https://i.imgur.com/LbeX4G1.png)
+![logo2](https://i.imgur.com/OZvk1c7.png)
 
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read the latest release.
