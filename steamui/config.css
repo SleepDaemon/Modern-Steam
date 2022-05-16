@@ -84,7 +84,7 @@
     --Font: "Motiva Sans", Arial, Helvetica, sans-serif; /* Any font on the system */
     --FontStyle: uppercase; /* Set to [ lowercase | uppercase | none ] */
     --LetterSpacing: 3px !important; /* Set 3px or more */
-    --YourLibraryName: "My Library" !important; /* Set your own library name */
+    --YourLibraryName: "YOUR LIBRARY" !important; /* Set your own library name */
     --BackgroundColor: transparent; /* Button background color */
     --LibraryButton: flex; /* Hide/Show Library Button, Set to [ none | flex ] */
     --LibrarySearch: flex; /* Hide/Show Library Button, Set to [ none | flex ] */
@@ -111,9 +111,9 @@
     /**********************************/
     /* Blur turned off by default, to turn on; set FlatColor to none, and switch everything on. */
     --FlatColor: var(--darkgrey); /* Set to [ none | color #1e1e1f ] */
-    --FuckBlur: blur(10px); /* Set to [ Off ( 0px ) | Low PC ( 10px ) | High PC ( > 20px ) ] */
-    --BackgroundBlur: flex; /* Set to [ none | flex ] */
-    --ImageBlur: visible; /* Set to [ none | visible ] */
+    --FuckBlur: blur(0px); /* Set to [ Off ( 0px ) | Low PC ( 10px ) | High PC ( > 20px ) ] */
+    --BackgroundBlur: none; /* Set to [ none | flex ] */
+    --ImageBlur: none; /* Set to [ none | visible ] */
     --ImageHeight: 320px; /* Set to [ 0px > 462px ] */
 
 
@@ -121,8 +121,8 @@
     /* GAME COVER & EFFECTS */
     /************************/
     --CoverHover: show; /* Set to [ show | hide ] */
-    --AvatarEffect: flex; /* Hide/Show Miniprofile Avatar Image Effect, Set to [ none | flex ] */
-    --TopShadow: flex;  /* Hide/Show Header Shadow, Set to [ none | flex ] */
+    --AvatarEffect: none; /* Hide/Show Miniprofile Avatar Image Effect, Set to [ none | flex ] */
+    --TopShadow: none;  /* Hide/Show Header Shadow, Set to [ none | flex ] */
     --collectionsbtn: flex; /* Hide/Show Collections Button, Set to [ none | flex ] */
 
 

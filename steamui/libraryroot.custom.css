@@ -3,12 +3,11 @@
 @import url('config.css');
 /* !!! DO NOT EDIT THESE !!! DO NOT EDIT THESE !!! */
 
-/* Disable Shadows & Transitions */
-/* *{
+*{  /* Disable Shadows & Transitions */
     transition: 0s !important;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-} */
+    box-shadow: none !important; 
+}
 
 /* ===== CREDITS  =====
 /* Shiina♪#9670
