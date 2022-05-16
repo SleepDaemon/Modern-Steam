@@ -17,7 +17,7 @@ Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read
 ![Profile](https://i.imgur.com/ZfAtxsc.png)
 
 # Credit
-I didn't code or create any of these I simply manage the repo, all credits goes to these folks below who did the actual work:
+I didn't make any of these I simply manage the repo, all credits goes to these folks below who did the actual work:
 
 - [Minischetti](https://github.com/minischetti) for the original metro skin [[Original Skin]](https://metroforsteam.com/)
 - [RedSigma](https://github.com/redsigma) for the updated metro skin [[Updated Skin]](https://github.com/redsigma/UPMetroSkin)
