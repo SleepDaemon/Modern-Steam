@@ -1,5 +1,7 @@
- Steam Dark Mode
-A modern and darker UI for steam (this skins is known as the Metro Skin)
+# Steam Dark Mode
+Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further, this Steam Dark Mode got you covered.
+
+
 
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases) and read the latest release instruction
