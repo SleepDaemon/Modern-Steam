@@ -17,6 +17,8 @@ Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases), read an
 ![Store](https://i.imgur.com/XZWb9nE.png)
 ### Steam Profile
 ![Profile](https://i.imgur.com/ZfAtxsc.png)
+### Steam Overlay
+![Overlay](https://i.imgur.com/7HquKM0.png)
 
 # Credit
 I didn't make any of these I simply manage the repo, all credits goes to these folks below who did the actual work:
