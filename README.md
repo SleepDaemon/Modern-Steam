@@ -6,6 +6,9 @@ Do you wish that Valve would update the look of steam already, because you're bo
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases), read and download from the latest **Stable** release.
 
+## Known Issues/Bugs
+- [Store page skin not working](https://github.com/SleepDaemon/SteamDarkMode/releases/tag/known-bugs)
+
 ## Screenshots
 ### Steam Library
 ![Library](https://i.imgur.com/nLP8tdj.png)
