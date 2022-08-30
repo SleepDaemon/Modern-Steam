@@ -33,3 +33,4 @@ I didn't make any of these I simply manage the repo, all credits goes to these f
 - [RedSigma](https://github.com/redsigma) for the updated metro skin [[Updated Skin]](https://github.com/redsigma/UPMetroSkin)
 - [PhantomGamers](https://github.com/PhantomGamers) for the SFP [[SFP]](https://github.com/PhantomGamers/SFP)
 - [AikoMidori](https://github.com/AikoMidori) for the steam libraryroot [[steam-library]](https://github.com/AikoMidori/steam-library)
+- [RoseTheFlower](https://github.com/RoseTheFlower/) for update friendUI [[newsteamchat]](https://github.com/RoseTheFlower/newsteamchat)
