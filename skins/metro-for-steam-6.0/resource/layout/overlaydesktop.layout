@@ -1,7 +1,12 @@
 "resource/layout/overlaydesktop.layout"
 {
-	styles
+
+	colors
 	{
+	}
+
+	styles
+	{ 
 		sidemenu
 		{
 			textcolor=OverlaySideButtons
@@ -36,7 +41,6 @@
 			font-style=regular
 		}
 	}
-
 	layout
 	{
 		//Workshop
@@ -50,8 +54,7 @@
 		place { control="BroadcastDetailPanel" height=106 }
 		place { control="AchievementsDetailPanel" height=204 }
 		place { control="GuidesDetailPanel" height=204 }
-		place { control="FriendsDetailPanel" height=190 }
-		place { control="ScreenshotsDetailPanel,CommunityDiscussionsDetailPanel,CommunityHubDetailPanel,NewsDetailPanel" height=68 }
+		place { control="FriendsDetailPanel,ScreenshotsDetailPanel,CommunityDiscussionsDetailPanel,CommunityHubDetailPanel,NewsDetailPanel" height=68 }
 
 		//Panels
 

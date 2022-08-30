@@ -6,6 +6,7 @@
 		{
 			bgcolor=bgOfflineNick
 			textcolor=offlineNick
+			font-style=uppercase
 			padding-right=8
 			padding-left=12
 			render_bg
@@ -18,6 +19,7 @@
 		{
 			bgcolor=bgOnlineNick
 			textcolor=onlineNick
+			font-style=uppercase
 			padding-right=8
 			padding-left=12
 			render_bg
@@ -30,6 +32,7 @@
 		{
 			bgcolor=bgIngameNick
 			textcolor=ingameNick
+			font-style=uppercase
 			padding-right=8
 			padding-left=12
 			render_bg

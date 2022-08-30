@@ -1,63 +1,57 @@
 "resource/layout/overlay_achievementsdetails.layout"
 {
-	controls
-	{
-		AchievementsDetailPanel { controlname="COverlay_Details_Acheivements" style=detailsbox }
-		TitleText { controlname="label" labeltext="#Overlay_Achievement_Title" style=detailsboxtitle }
 
-		ViewAchievementsButton { controlname=button labeltext="#Overlay_Friends_ViewAchievements" }
-
-		progressbackground { controlname="ImagePanel" style="progressbackground" }
-		progressbarimage { controlname="ImagePanel" style="progressbarimage" }
-
-		ProgressTextEarned { controlname=label style=highlight labeltext="#Overlay_Achievement_Progress" }
-	}
 	colors
 	{
 	}
 	styles
 	{
-		button
+		detailsbox
 		{
-			inset=2
-			font-family=basefont
-			font-weight=400
+			render_bg
+			{
+				0="fill(x0+16,y0+67,x1-68,y0+68,White10)"
+			}
 		}
-		highlight
+		Button
 		{
-			textcolor="White75"
-			bgcolor="none"
-			font-family=semibold
-			font-style=uppercase
-			font-size=16
-			font-size=14 [$OSX||$LINUX]
+			bgcolor=none
+			image=graphics/metro/overlay/icons/achievements
+			inset-left=-6
 		}
+		Button:hover
+		{
+			image=graphics/metro/overlay/icons/achievements_h		
+		}
+		Button:active
+		{
+			image=graphics/metro/overlay/icons/achievements_p		
+		}
+		//Hidden
 		progressbackground
 		{
-			bgcolor=white05
+			bgcolor="none"
 			render_bg{}
 		}
 		progressbarimage
 		{
-			alpha=150
-			bgcolor="Focus"
+			bgcolor="none"
 			render_bg = {}
 		}
 	}
 	layout
 	{
-		region { name=title margin=8 width=max height=100 }
-		region { name=box margin=8 width=max height=max }
-		region { name=bottom y=165 margin-top=10 margin-bottom=10 margin-left=10 margin-right=10 width=max height=124 }
+		//Left
+		place { controls=ViewAchievementsButton align=right margin-right=16 y=16 width=36 height=36 }
 
-		place { control="TitleText" region=title spacing=12 dir=down }
+		//Right
+		place { control="TitleText" align=right margin-right=68 y=11 }
+		place { control="ProgressTextEarned" align=right margin-right=68 y=37 }
 
-		place { region=box control=ProgressTextEarned x=6 y=40 height=24 }
-		place { region=box control=progressbackground y=40 width=max height=24 }
-		place { region=box control=progressbarimage y=40 height=24 }
+		//Content
+		place { control=*achievement y=68 width=max height=68 dir=down margin-right=68 }
 
-		place { region=box control=*achievement y=80 x=8 width=148 height=106 spacing=24 }
-
-		place { controls=ViewAchievementsButton region=bottom align=bottom margin-bottom=4 }
+		//Hidden
+		place { control=progressbarimage,progressbackground }
 	}
 }

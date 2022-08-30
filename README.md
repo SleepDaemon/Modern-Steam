@@ -1,7 +1,10 @@
 # Steam Dark Mode
-Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Modern Steam got you covered.
+Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Steam Dark Mode got you covered.
 
 ![logo](https://i.imgur.com/OZvk1c7.png)
+
+# Notice
+The bugs mentioned below still exist, and I have tried my best to solve them but unfortantly failed. Also, I will no longer be doing updates on this repo, as I have given up on this project and no longer interested in it. I might do one last update later on where I fix mentioned bugs.
 
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases), read and download from the latest **Stable** release.

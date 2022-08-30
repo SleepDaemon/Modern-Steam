@@ -84,7 +84,7 @@
     --Font: "Motiva Sans", Arial, Helvetica, sans-serif; /* Any font on the system */
     --FontStyle: uppercase; /* Set to [ lowercase | uppercase | none ] */
     --LetterSpacing: 3px !important; /* Set 3px or more */
-    --YourLibraryName: "My Library" !important; /* Set your own library name */
+    --YourLibraryName: "YOUR LIBRARY" !important; /* Set your own library name */
     --BackgroundColor: transparent; /* Button background color */
     --LibraryButton: flex; /* Hide/Show Library Button, Set to [ none | flex ] */
     --LibrarySearch: flex; /* Hide/Show Library Button, Set to [ none | flex ] */
@@ -122,7 +122,7 @@
     /************************/
     --CoverHover: show; /* Set to [ show | hide ] */
     --AvatarEffect: flex; /* Hide/Show Miniprofile Avatar Image Effect, Set to [ none | flex ] */
-    --TopShadow: flex;  /* Hide/Show Header Shadow, Set to [ none | flex ] */
+    --TopShadow: none;  /* Hide/Show Header Shadow, Set to [ none | flex ] */
     --collectionsbtn: flex; /* Hide/Show Collections Button, Set to [ none | flex ] */
 
 
@@ -153,7 +153,7 @@
     /* DOWNLOADS PAGE */
     /******************************/
     /* Remove the Dropdown button next to play */
-    --hidedlimage: none !important; /* Set to [ none | flex ] */
+    --hidedlimage: flex !important; /* Set to [ none | flex ] */
     --hidedlgraph: flex !important; /* Set to [ none | flex ] */
 
 }

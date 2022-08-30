@@ -152,8 +152,7 @@
 		}
 		FrameCloseButton:hover [$WIN32||$WINDOWS||$LINUX]
 		{
-			bgcolor=W10close_Red_h
-			image="graphics/metro/icons/caption/close_h"
+			bgcolor=White05
 		}
 		FrameCloseButton:hover [$OSX]
 		{
@@ -176,8 +175,7 @@
 		}
 		FrameCloseButton:active [$WIN32||$WINDOWS||$LINUX]
 		{
-			bgcolor=W10close_Red_p
-			image="graphics/metro/icons/caption/close_p"
+			bgcolor=White10
 		}
 		FrameCloseButton:active [$OSX]
 		{
@@ -251,13 +249,11 @@
 		}
 		"ToolWindow FrameCloseButton:hover"
 		{
-			bgcolor=W10close_Red_h
-			image="graphics/metro/icons/caption/sm/chat_close_sm_h"
+			bgcolor=White05
 		}
 		"ToolWindow FrameCloseButton:active"
 		{
-			bgcolor=W10close_Red_p
-			image="graphics/metro/icons/caption/sm/chat_close_sm_p"
+			bgcolor=White10
 		}
 	}
 }
