@@ -6,7 +6,7 @@ Do you wish that Valve would update the look of steam already, because you're bo
 # Notice
 The bugs mentioned below still exist, and I have tried my best to solve them but unfortantly failed. Also, I will no longer be doing updates on this repo, as I have given up on this project and no longer interested in it. I might do one last update later on where I fix mentioned bugs.
 
-I highly suggest Fluent for Steam as it uses the same sources I use for it's skin, you can find them on Github [here](https://github.com/purogamer/Fluent-for-Steam), or visit their site [fluentforsteam.io/](https://www.fluentforsteam.io/)
+I highly suggest Fluent for Steam as it uses the same sources I use for it's skin, you can find them on Github [here](https://github.com/purogamer/Fluent-for-Steam), or visit their site [fluentforsteam.io](https://www.fluentforsteam.io/)
 
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases), read and download from the latest **Stable** release.
@@ -35,4 +35,3 @@ I didn't make any of these I simply manage the repo, all credits goes to these f
 - [RedSigma](https://github.com/redsigma) for the updated metro skin [[Updated Skin]](https://github.com/redsigma/UPMetroSkin)
 - [PhantomGamers](https://github.com/PhantomGamers) for the SFP [[SFP]](https://github.com/PhantomGamers/SFP)
 - [AikoMidori](https://github.com/AikoMidori) for the steam libraryroot [[steam-library]](https://github.com/AikoMidori/steam-library)
-- [RoseTheFlower](https://github.com/RoseTheFlower/) for update friendUI [[newsteamchat]](https://github.com/RoseTheFlower/newsteamchat)
