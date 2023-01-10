@@ -1,3 +1,6 @@
+# USE THIS REPO INSTEAD
+https://github.com/xamionex/pscustom
+
 # Steam Dark Mode
 Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Steam Dark Mode got you covered.
 
