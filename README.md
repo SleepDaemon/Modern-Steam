@@ -33,5 +33,5 @@ I didn't make any of these I simply manage the repo, all credits goes to these f
 - [AikoMidori](https://github.com/AikoMidori) for the steam libraryroot [[steam-library]](https://github.com/AikoMidori/steam-library)
 
 # Other Skins
-- [FluentSkin](https://github.com/purogamer/Fluent-for-Steam), or visit their site [fluentforsteam.io](https://www.fluentforsteam.io/)
+- [FluentSkin Github](https://github.com/purogamer/Fluent-for-Steam), or visit their site [fluentforsteam.io](https://www.fluentforsteam.io/)
 - https://github.com/xamionex/pscustom
