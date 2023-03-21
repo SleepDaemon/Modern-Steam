@@ -1,0 +1,36 @@
+:root {
+    --primary-dark: #1E1E1F;
+    --secondary-dark: #141414;
+    --accent-purple: #5723DF;
+    --white: #FFFFFF;
+    --light-blue: #5FADF4;
+
+}
+
+body {
+    background-color: var(--primary-dark);
+}
+
+.text {
+    color: var(--white);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
