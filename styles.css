@@ -6,13 +6,14 @@
     --light-blue: #5FADF4;
 
 }
+@import url(https://fonts.bunny.net/css?family=albert-sans:300,400,500);
 
 body {
     background-color: var(--primary-dark);
-}
-
-.text {
+    padding: 0;
+    margin: 0;
     color: var(--white);
+    font-family: 'Albert Sans', sans-serif;
 }
 
 .container {
@@ -25,6 +26,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* border: solid; */
+    border-bottom: solid 4px var(--accent-purple);
+    
+}
+
+#accent { 
+    color: #5FADF4;
+    height: 4px;
 }
 
 li {
@@ -33,4 +42,28 @@ li {
     align-items: center;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.bx1 {
+    display: flex;
+    background-color: var(--secondary-dark);
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.bx2 {
+    display: flex;
+    background-color: var(--secondary-dark);
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+#info {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
 }
