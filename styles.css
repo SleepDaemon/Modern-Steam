@@ -2,11 +2,30 @@
     --primary-dark: #1E1E1F;
     --secondary-dark: #141414;
     --accent-purple: #5723DF;
-    --white: #FFFFFF;
+    --white: #cacaca;
     --light-blue: #5FADF4;
 
 }
 @import url(https://fonts.bunny.net/css?family=albert-sans:300,400,500);
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    background: var(--accent-purple);
+    color: rgb(214, 214, 214);
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 5px;
+}
+
+
+button:hover {
+    background-color: var(--light-blue);
+}
 
 body {
     background-color: var(--primary-dark);
@@ -31,17 +50,18 @@ body {
     
 }
 
-#accent { 
-    color: #5FADF4;
-    height: 4px;
-}
-
-li {
+ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     color: #E5E7EB;
     font-size: 18px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    padding-right: 20px;
 }
 
 .bx1 {
@@ -50,6 +70,7 @@ li {
     align-items: center;
     justify-content: center;
     padding: 90px;
+    border-bottom: solid 4px var(--accent-purple);
 }
 
 .bx2 {
@@ -58,6 +79,7 @@ li {
     align-items: center;
     justify-content: center;
     padding: 90px;
+    border-bottom: solid 4px var(--accent-purple);
 }
 
 #info {
@@ -65,5 +87,4 @@ li {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin-right: 50px;
 }
