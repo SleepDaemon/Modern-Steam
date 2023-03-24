@@ -45,7 +45,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: solid; */
     border-bottom: solid 4px var(--accent-purple);
     
 }
@@ -69,8 +68,21 @@ li {
     background-color: var(--secondary-dark);
     align-items: center;
     justify-content: center;
-    padding: 90px;
+    padding: 00 00 00 00;
     border-bottom: solid 4px var(--accent-purple);
+}
+
+.bx1_para {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* font-size: 100px; */
+    margin-left: 50px;
+}
+
+.bx1_para p {
+    font-size: 100px;
 }
 
 .bx2 {
@@ -82,9 +94,7 @@ li {
     border-bottom: solid 4px var(--accent-purple);
 }
 
-#info {
-    flex-basis: 400px;
+.showcase_head {
     display: flex;
-    flex-direction: column;
-    text-align: left;
+    
 }
