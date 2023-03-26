@@ -8,31 +8,37 @@
 }
 @import url(https://fonts.bunny.net/css?family=albert-sans:300,400,500);
 
-button,
-input[type="submit"],
-input[type="reset"] {
-    background: var(--accent-purple);
-    color: rgb(214, 214, 214);
-    border: none;
-    margin: 10px;
-    padding: 10px;
-    font: inherit;
-    cursor: pointer;
-    outline: inherit;
-    border-radius: 5px;
-}
-
-
-button:hover {
-    background-color: var(--light-blue);
-}
-
 body {
     background-color: var(--primary-dark);
     padding: 0;
     margin: 0;
     color: var(--white);
     font-family: 'Albert Sans', sans-serif;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    background: var(--accent-purple);
+    color: rgb(214, 214, 214);
+    border: none;
+    margin: 20px 10px 20px;
+    padding: 10px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button:hover {
+    background-color: var(--light-blue);
 }
 
 .container {
@@ -45,7 +51,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: solid 4px var(--accent-purple);
+    border-bottom: solid 5px var(--accent-purple);
     
 }
 
@@ -56,7 +62,8 @@ ul {
     color: #E5E7EB;
     font-size: 18px;
     list-style-type: none;
-    padding: 10px;
+    font-size: larger;
+    margin: 10px;
 }
 
 li {
@@ -68,33 +75,60 @@ li {
     background-color: var(--secondary-dark);
     align-items: center;
     justify-content: center;
-    padding: 00 00 00 00;
-    border-bottom: solid 4px var(--accent-purple);
+    padding: 50px 00 50px 00;
+    border-bottom: solid 2.5px var(--accent-purple);
 }
 
 .bx1_para {
-    flex-basis: 400px;
+    /* flex-basis: 400px; */
     display: flex;
     flex-direction: column;
-    text-align: left;
-    /* font-size: 100px; */
-    margin-left: 50px;
+    margin-left: 35px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.windows_color {
+    color: var(--white);
 }
 
 .bx1_para p {
+    display: flex;
+    flex-direction: column;
     font-size: 100px;
+    margin: 0;
+    padding: 50px 0 0 0;
+}
+
+.bx1_para button {
+    margin-bottom: 90px;
+    font-size: larger;
+    font-size: 25px;
 }
 
 .bx2 {
     display: flex;
-    background-color: var(--secondary-dark);
+    flex-direction: column;
+    background-color: var(--primary-dark);
     align-items: center;
     justify-content: center;
     padding: 90px;
-    border-bottom: solid 4px var(--accent-purple);
+    border-bottom: solid 2.5px var(--accent-purple);
 }
 
 .showcase_head {
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+}
+
+.bx2_image {
+    display: flex;
+    flex-direction: row;
+}
+
+.bx2 p {
+    display: flex;
+    flex-direction: row;
 }
