@@ -20,15 +20,15 @@ These repos uses the same Metro Skin except are more well maintained then this o
 
 ## Screenshots
 ### Steam Library
-![Library](https://i.imgur.com/nLP8tdj.png)
+![Library](![43-58-01](https://user-images.githubusercontent.com/88533953/228816107-0dbd2d87-0087-4c59-8e43-cb5adee292f3.jpg))
 ### Steam Download
-![Download](https://i.imgur.com/GG6wxXi.png)
+![Download](![24-58-01](https://user-images.githubusercontent.com/88533953/228816168-03013cf9-523d-4551-b565-2a09ce853686.jpg))
 ### Steam Friends
 ![Friends](https://i.imgur.com/ugD3zru.png)
 ### Steam Store
-![Store](https://i.imgur.com/XZWb9nE.png)
+![Store](![28-57-01](https://user-images.githubusercontent.com/88533953/228816206-fe08075b-9f85-4040-8e4b-5d22f742d8b5.jpg))
 ### Steam Profile
-![Profile](https://i.imgur.com/ZfAtxsc.png)
+![Profile](![06-58-01](https://user-images.githubusercontent.com/88533953/228816242-16453d13-6393-49b3-97a8-9f2063d3d45b.jpg)
 ### Steam Overlay
 ![Overlay](https://i.imgur.com/7HquKM0.png)
 
