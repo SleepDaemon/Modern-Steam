@@ -56,7 +56,13 @@ button:active {
 }
 
 .header {
+    display: flex;
     margin: 10px;
+}
+
+.header p {
+    padding-right: 20px;
+    font-size: larger;
 }
 
 .header img {
@@ -72,25 +78,6 @@ button:active {
     border-bottom: solid 5px var(--accent-purple);
     
 }
-
-/* .nav-links a:link { 
-    text-decoration: none; 
-}
-
-
-.nav-links a:visited { 
-    text-decoration: none; 
-}
-
-
-.nav-links a:hover { 
-    text-decoration: none; 
-}
-
-
-.nav-links a:active { 
-    text-decoration: none; 
-} */
 
 a:link {
     text-decoration: none;
