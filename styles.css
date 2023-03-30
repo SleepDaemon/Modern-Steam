@@ -44,6 +44,12 @@ button:hover {
     
 }
 
+button:active {
+    background-color: var(--accent-purple);
+    transform: matrix(1, 0, 0, 1, 0, 0) ;
+    transition: 0.1s
+}
+
 .container {
     display: flex;
     flex-direction: column;
