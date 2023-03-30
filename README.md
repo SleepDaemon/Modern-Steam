@@ -1,13 +1,19 @@
 # Steam Dark Mode
-Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Steam Dark Mode got you covered. https://github.com/henrikx/metroskininstaller
+Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Steam Dark Mode got you covered.
 
 ![logo](https://i.imgur.com/OZvk1c7.png)
 
 ## Upcoming Plans
-- Create a website for Modern Steam
+To be updated
 
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases), read and download from the latest **Stable** release.
+
+## Similar repos
+These repos uses the same Metro Skin except are more well maintained then this one, this one should work but will notice some UI bugs. These alternatives should have them fixed.
+
+- [MetroSkinInstaller](https://github.com/henrikx/metroskininstaller)
+- [Pcustom Metro](https://github.com/xamionex/pscustom)
 
 ## Known Issues/Bugs
 - All issues are fixed
@@ -37,4 +43,4 @@ I didn't make any of these I simply manage the repo, all credits goes to these f
 
 # Other Skins
 - [FluentSkin Github](https://github.com/purogamer/Fluent-for-Steam), or visit their site [fluentforsteam.io](https://www.fluentforsteam.io/)
-- https://github.com/xamionex/pscustom
+- [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam)
