@@ -2,7 +2,7 @@
 
 // get the latest release from github repo
 const getLatestRelease = async () => {
-  const response = await fetch("https://api.github.com/repos/SleepDaemon/Modern-Steam/releases/latest");
+  const response = await fetch("https://api.github.com/repos/henrikx/metroskininstaller/releases/latest");
   const data = await response.json();
   return data;
 };

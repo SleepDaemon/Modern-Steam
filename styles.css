@@ -73,6 +73,44 @@ button:active {
     
 }
 
+/* .nav-links a:link { 
+    text-decoration: none; 
+}
+
+
+.nav-links a:visited { 
+    text-decoration: none; 
+}
+
+
+.nav-links a:hover { 
+    text-decoration: none; 
+}
+
+
+.nav-links a:active { 
+    text-decoration: none; 
+} */
+
+a:link {
+    text-decoration: none;
+    color: var(--white);
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: darkgrey;
+  }
+  
+  a:active {
+    text-decoration: none;
+    color: var(--light-blue)
+  }
 ul {
     display: flex;
     flex-direction: row;
