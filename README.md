@@ -3,8 +3,8 @@ Do you wish that Valve would update the look of steam already, because you're bo
 
 ![logo](https://i.imgur.com/OZvk1c7.png)
 
-## Upcoming Plans
-To be updated
+## NOTICE!!!
+I no longer maintain update the stuff in the repo, if you wish to update yourself feel free to make a pull request.
 
 ## Download
 Go to [Releases](https://github.com/SleepDaemon/SteamDarkMode/releases), read and download from the latest **Stable** release.
