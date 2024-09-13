@@ -1,7 +1,7 @@
 # NOTICE!!!
 I no longer maintain/update the repo, if you wish to update yourself feel free to make a pull request.
 
-### **Please use ![Millennium](https://steambrew.app/) instead as it has a similar skin but more well maintained.**
+### **Please use [Millennium](https://steambrew.app/) instead as it has a similar skin but more well maintained.**
 
 # Steam Dark Mode
 Do you wish that Valve would update the look of steam already, because you're bored of the old look of it. Well look no further Steam Dark Mode got you covered.
